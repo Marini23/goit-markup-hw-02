@@ -1,0 +1,273 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #434455;
+}
+
+.link {
+text-decoration: none;
+}
+.list {
+list-style: none;
+}
+/* Header */
+
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.header-logo-part {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header-logo:hover {
+    color: #404BBF;
+    text-decoration: underline;}
+
+.header-logo:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.header-link {
+font-style: normal;
+font-weight: 500;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-link:hover {
+color: #404BBF;
+text-decoration: underline;}
+.header-link:focus {
+color: #404BBF;
+text-decoration: underline;
+}
+
+.header-mail-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-mail-link:hover {
+    color: #404BBF;
+    text-decoration: underline;}
+
+.header-mail-link:focus {
+    color: #404BBF;
+    text-decoration: underline;}
+
+.header-tel-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-tel-link:hover {
+    color: #404BBF;
+    text-decoration: underline;}
+
+.header-tel-link:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+/* Main */
+
+.hero-background-title {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-botton {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: #4D5AE5;
+}
+/* Main features */
+.hero-features-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+/* Main works */
+.hero-works-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+/* Hero team */
+.hero-team-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.hero-team-name {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.hero-team-proffesion {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Footer */
+
+.footer-background {
+background-color: #2E2F42;
+}
+
+.footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.footer-logo-part {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.footer-logo:hover {
+    color: #404BBF;
+    text-decoration: underline;}
+
+.footer-logo:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.footer-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* Main portfolio */
+.hero-portfolio-button {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+.hero-portfolio-button:hover {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.hero-portfolio-button:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.hero-portfolio-projects-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.hero-portfolio-projects-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
