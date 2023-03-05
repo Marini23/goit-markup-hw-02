@@ -65,7 +65,7 @@ text-decoration: underline;
 .header-adress {
 font-style: normal;
 }
-.header-mail-link {
+.header-mail-tel-link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -74,31 +74,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.header-mail-link:hover {
+.header-mail-tel-link:hover {
     color: #404BBF;
     text-decoration: underline;}
 
-.header-mail-link:focus {
+.header-mail-tel-link:focus {
     color: #404BBF;
     text-decoration: underline;}
 
-.header-tel-link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.header-tel-link:hover {
-    color: #404BBF;
-    text-decoration: underline;}
 
-.header-tel-link:focus {
-    color: #404BBF;
-    text-decoration: underline;
-}
 /* Main */
 
 .hero-background-title {
