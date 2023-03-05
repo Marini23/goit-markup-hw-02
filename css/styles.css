@@ -241,7 +241,8 @@ color: #E7E9FC;
 }
 
 /* Main portfolio */
-.hero-portfolio-button {
+
+.hero-portfolio-button-item {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 cursor: pointer;
@@ -254,14 +255,24 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 }
-.hero-portfolio-button:hover {
+.hero-portfolio-button-item:hover {
     color: #FFFFFF;
     background: #404BBF;
 }
 
-.hero-portfolio-button:focus {
+.hero-portfolio-button-item:focus {
     color: #FFFFFF;
     background: #404BBF;
+}
+
+.hero-portfolio-projects-link:hover {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.hero-portfolio-projects-link:focus {
+    color: #404BBF;
+    text-decoration: underline;
 }
 
 .hero-portfolio-projects-title {
