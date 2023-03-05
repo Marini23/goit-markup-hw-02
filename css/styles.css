@@ -12,11 +12,11 @@ list-style: none;
 /* Header */
 
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -29,7 +29,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -114,7 +114,8 @@ color: #FFFFFF;
 }
 
 .hero-botton {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -134,6 +135,15 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+}
+
+.hero-features-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
 }
 
 /* Main works */
@@ -189,7 +199,7 @@ background-color: #2E2F42;
 }
 
 .footer-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -201,7 +211,7 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 .footer-logo-part {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -232,11 +242,12 @@ color: #E7E9FC;
 
 /* Main portfolio */
 .hero-portfolio-button {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
+cursor: pointer;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
