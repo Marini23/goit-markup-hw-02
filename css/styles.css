@@ -62,6 +62,9 @@ color: #404BBF;
 text-decoration: underline;
 }
 
+.header-adress {
+font-style: normal;
+}
 .header-mail-link {
 font-family: 'Roboto';
 font-style: normal;
@@ -143,6 +146,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: #434455;
 }
 
