@@ -121,11 +121,13 @@ background: var(--accent-color);
 }
 .hero-botton:hover {
     color: var(--botton-active-color);
+    background: var(--hover-focus-color);
     text-decoration: none;
 }
 
 .hero-botton:focus {
     color: var(--botton-active-color);
+    background: var(--hover-focus-color);
     text-decoration: none;
 }
 
